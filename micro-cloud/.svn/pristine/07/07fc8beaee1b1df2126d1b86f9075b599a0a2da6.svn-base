@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hyh.cloud.give.bag.mapper.UserDiscountMapper">
+	<resultMap id="UserDiscount" type="com.hyh.cloud.give.bag.bean.UserDiscount">
+		<result property="expiredDate" column="expired_date" />
+		<result property="rule" column="rule" />
+		<result property="rate" column="rate" />
+		<result property="hmac" column="hmac" />
+		<result property="usedDate" column="used_date" />
+		<result property="id" column="id" />
+		<result property="proPeriod" column="pro_period" />
+		<result property="productNo" column="product_no" />
+		<result property="channelCode" column="channel_code" />
+		<result property="issuleType" column="issule_type" />
+		<result property="tokenDate" column="token_date" />
+		<result property="backId" column="back_id" />
+		<result property="creator" column="creator" />
+		<result property="amount" column="amount" />
+		<result property="serialNum" column="serial_num" />
+		<result property="isTransfer" column="is_transfer" />
+		<result property="campaignId" column="campaign_id" />
+		<result property="userId" column="user_id" />
+		<result property="frontId" column="front_id" />
+		<result property="discountScope" column="discount_scope" />
+		<result property="systemCode" column="system_code" />
+		<result property="createTime" column="create_time" />
+		<result property="discountId" column="discount_id" />
+		<result property="remarks" column="remarks" />
+		<result property="status" column="status" />
+	</resultMap>
+
+	<sql id="column">
+		expired_date,
+		rule,
+		rate,
+		hmac,
+		used_date,
+		id,
+		pro_period,
+		product_no,
+		channel_code,
+		issule_type,
+		token_date,
+		back_id,
+		creator,
+		amount,
+		serial_num,
+		is_transfer,
+		campaign_id,
+		user_id,
+		front_id,
+		discount_scope,
+		system_code,
+		create_time,
+		discount_id,
+		remarks,
+		status
+	</sql>
+
+	<sql id="variable">
+		#{item.expiredDate},
+		#{item.rule},
+		#{item.rate},
+		#{item.hmac},
+		#{item.usedDate},
+		#{item.id},
+		#{item.proPeriod},
+		#{item.productNo},
+		#{item.channelCode},
+		#{item.issuleType},
+		#{item.tokenDate},
+		#{item.backId},
+		#{item.creator},
+		#{item.amount},
+		#{item.serialNum},
+		#{item.isTransfer},
+		#{item.campaignId},
+		#{item.userId},
+		#{item.frontId},
+		#{item.discountScope},
+		#{item.systemCode},
+		#{item.createTime},
+		#{item.discountId},
+		#{item.remarks},
+		#{item.status}
+	</sql>
+
+	<sql id="common_where">
+		<if test="rule != null"> AND rule = #{rule}</if>
+		<if test="rate != null"> AND rate = #{rate}</if>
+		<if test="hmac != null"> AND hmac = #{hmac}</if>
+		<if test="id != null"> AND id = #{id}</if>
+		<if test="proPeriod != null"> AND pro_period = #{proPeriod}</if>
+		<if test="productNo != null"> AND product_no = #{productNo}</if>
+		<if test="channelCode != null"> AND channel_code = #{channelCode}</if>
+		<if test="issuleType != null"> AND issule_type = #{issuleType}</if>
+		<if test="backId != null"> AND back_id = #{backId}</if>
+		<if test="creator != null"> AND creator = #{creator}</if>
+		<if test="amount != null"> AND amount = #{amount}</if>
+		<if test="serialNum != null"> AND serial_num = #{serialNum}</if>
+		<if test="isTransfer != null"> AND is_transfer = #{isTransfer}</if>
+		<if test="campaignId != null"> AND campaign_id = #{campaignId}</if>
+		<if test="userId != null"> AND user_id = #{userId}</if>
+		<if test="frontId != null"> AND front_id = #{frontId}</if>
+		<if test="discountScope != null"> AND discount_scope = #{discountScope}</if>
+		<if test="systemCode != null"> AND system_code = #{systemCode}</if>
+		<if test="discountId != null"> AND discount_id = #{discountId}</if>
+		<if test="remarks != null"> AND remarks = #{remarks}</if>
+		<if test="status != null"> AND status = #{status}</if>
+	</sql>
+
+	<sql id="date_where">
+		<if test="gtExpiredDate != null"> AND expired_date &gt;= #{gtExpiredDate}</if>
+		<if test="ltExpiredDate != null"> AND expired_date &lt;= #{ltExpiredDate}</if>
+		<if test="gtUsedDate != null"> AND used_date &gt;= #{gtUsedDate}</if>
+		<if test="ltUsedDate != null"> AND used_date &lt;= #{ltUsedDate}</if>
+		<if test="gtTokenDate != null"> AND token_date &gt;= #{gtTokenDate}</if>
+		<if test="ltTokenDate != null"> AND token_date &lt;= #{ltTokenDate}</if>
+		<if test="gtCreateTime != null"> AND create_time &gt;= #{gtCreateTime}</if>
+		<if test="ltCreateTime != null"> AND create_time &lt;= #{ltCreateTime}</if>
+	</sql>
+
+	<sql id="common_sort">
+		<if test="sort != null"> ORDER BY #{sort} </if>
+	</sql>
+
+	<sql id="in_where">
+		<if test="ids!=null">
+			AND id IN 
+			<foreach item="item" index="i" collection="ids" separator="," open="(" close=")" >
+				#{item}
+			</foreach>
+		</if>
+	</sql>
+
+	<insert id="batchAdd" parameterType="com.hyh.cloud.give.bag.bean.UserDiscount">
+		INSERT INTO cld_user_discount (
+			<include refid="column"/>)
+		VALUES <foreach collection="list" item="item" index="index" separator=","> (
+			<include refid="variable"/>)</foreach>
+	</insert>
+
+	<select id="queryListByParam" parameterType="map" resultMap="AssetsResultMap">
+		SELECT <include refid="column"/> FROM cld_user_discount
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+		<include refid="common_sort"/>  
+	</select>
+
+	<select id="queryCountByParam" parameterType="map" resultType="java.lang.Integer">
+		SELECT count(1) FROM cld_user_discount
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+	</select>
+
+</mapper>

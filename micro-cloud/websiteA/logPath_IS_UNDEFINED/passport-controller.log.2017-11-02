@@ -1,0 +1,849 @@
+2017-11-02 00:00:49.561   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:05:49.579   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:10:49.596   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:15:49.613   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:20:49.631   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:25:49.649   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:30:49.666   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:35:49.670   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:40:49.634   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:45:49.622   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:50:49.617   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 00:55:49.634   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:00:49.651   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:05:49.668   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:10:49.685   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:15:49.707   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:20:49.725   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:25:49.742   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:30:49.759   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:35:49.777   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:40:49.795   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:45:49.777   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:50:49.751   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 01:55:49.739   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:00:49.744   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:05:49.761   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:10:49.778   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:15:49.795   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:20:49.814   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:25:49.831   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:30:49.849   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:35:49.867   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:40:49.884   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:45:49.901   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:50:49.918   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 02:55:49.882   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:00:49.867   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:05:49.854   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:10:49.867   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:15:49.884   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:20:49.901   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:25:49.919   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:30:49.936   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:35:49.953   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:40:49.970   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:45:49.987   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:50:50.004   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 03:55:50.021   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:00:50.022   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:05:49.988   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:10:49.976   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:15:49.972   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:20:49.989   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:25:50.007   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:30:50.024   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:35:50.042   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:40:50.060   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:45:50.077   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:50:50.094   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 04:55:50.111   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:00:50.128   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:05:50.146   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:10:50.163   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:15:50.181   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:20:50.198   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:25:50.215   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:30:50.232   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:35:50.252   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:40:50.269   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:45:50.287   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:50:50.305   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 05:55:50.322   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:00:50.339   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:05:50.357   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:10:50.374   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:15:50.391   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:20:50.291   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:25:50.247   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:30:50.234   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:35:50.222   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:40:50.239   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:45:50.256   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:50:50.274   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 06:55:50.291   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:00:50.309   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:05:50.326   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:10:50.343   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:15:50.361   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:20:50.378   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:25:50.395   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:30:50.412   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:35:50.429   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:40:50.447   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:45:50.465   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:50:50.482   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 07:55:50.499   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:00:50.517   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:05:50.534   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:10:50.551   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:15:50.569   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:20:50.586   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:25:50.603   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:30:50.620   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:35:50.557   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:40:50.495   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:45:50.472   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:50:50.459   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 08:55:50.466   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:00:50.483   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:05:50.501   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:10:50.518   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:15:50.535   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:20:50.552   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:25:50.569   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:30:50.587   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:35:50.604   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:40:50.621   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:45:50.639   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:50:50.656   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 09:55:50.673   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:00:50.690   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:05:50.708   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:10:50.725   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:15:50.742   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:20:50.759   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:25:50.777   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:30:50.795   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:35:50.815   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:40:50.833   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:45:50.850   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:50:50.824   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 10:55:50.742   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:00:50.710   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:05:50.697   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:10:50.695   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:15:50.713   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:20:50.731   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:25:50.748   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:30:50.765   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:35:50.782   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:40:50.799   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:45:50.816   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:50:50.833   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 11:55:50.850   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:00:50.868   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:05:50.885   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:10:50.902   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:15:50.920   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:20:50.937   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:25:50.955   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:30:50.972   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:35:50.991   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:40:51.009   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:45:51.026   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:50:51.044   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 12:55:51.061   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:00:51.078   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:05:51.089   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:10:50.991   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:15:50.949   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:20:50.936   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:25:50.925   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:30:50.942   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:35:50.960   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:40:50.977   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:45:50.995   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:50:51.012   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 13:55:51.030   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:00:51.047   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:05:51.064   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:10:51.081   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:15:51.098   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:20:51.115   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:25:51.132   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:30:51.149   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:35:51.166   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:40:51.184   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:45:51.201   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:50:51.224   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 14:55:51.242   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:00:51.260   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:05:51.278   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:10:51.295   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:15:51.312   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:20:51.329   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:25:51.283   INFO [website,,,] 6428 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:41:51.778   INFO [website,,,] 12660 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04: startup date [Thu Nov 02 15:41:51 CST 2017]; root of context hierarchy
+2017-11-02 15:41:52.437   INFO [website,,,] 12660 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:41:52.560   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eafbaadd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:41:55.388   INFO [website,,,] 12660 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-02 15:41:55.603   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2017-11-02 15:41:56.716   INFO [website,,,] 12660 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-02 15:41:56.716   INFO [website,,,] 12660 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-02 15:41:56.862   INFO [website,,,] 12660 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-02 15:41:56.862   INFO [website,,,] 12660 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-02 15:41:57.504   INFO [website,,,] 12660 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:41:59.568   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-02 15:41:59.569   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-02 15:41:59.569   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-02 15:41:59.569   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-02 15:41:59.569   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-02 15:41:59.570   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-02 15:41:59.570   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-02 15:42:00.063   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-02 15:42:00.069   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2017-11-02 15:42:00.074   INFO [website,,,] 12660 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509608520074 with initial instances count: 3
+2017-11-02 15:42:00.928   INFO [website,,,] 12660 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at: http://10.12.8.198:8050/
+2017-11-02 15:42:02.058   INFO [website,,,] 12660 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=website, profiles=[dev], label=null, version=null, state=null
+2017-11-02 15:42:02.058   INFO [website,,,] 12660 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource [name='http://10.12.5.100/svn/hyhcode/branches/hy-passport/config/website-dev.properties'], MapPropertySource [name='http://10.12.5.100/svn/hyhcode/branches/hy-passport/config/website-dev.yml']]]
+2017-11-02 15:42:02.174   INFO [website,,,] 12660 --- [           main] com.hyh.cloud.WebsiteApplication         : No active profile set, falling back to default profiles: default
+2017-11-02 15:42:02.323   INFO [website,,,] 12660 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d11ceef: startup date [Thu Nov 02 15:42:02 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04
+2017-11-02 15:42:06.423   INFO [website,,,] 12660 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-11-02 15:42:07.779   INFO [website,,,] 12660 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cb365acf-a823-3a7c-925d-c9ad1477ba23
+2017-11-02 15:42:07.804   INFO [website,,,] 12660 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:42:07.850   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hyh.cloud.passport.service.client.PassportClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:07.852   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hyh.cloud.member.client.MemberClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:07.957   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$c2345a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.077   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$d146ee12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.756   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.763   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$10e4e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.817   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eafbaadd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.869   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e7380a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.914   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$b6c553ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:08.946   INFO [website,,,] 12660 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$13de3a3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:42:11.798   INFO [website,,,] 12660 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8500 (http)
+2017-11-02 15:42:11.921   INFO [website,,,] 12660 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-11-02 15:42:11.922   INFO [website,,,] 12660 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-02 15:42:13.243   INFO [website,,,] 12660 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-02 15:42:13.244   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10921 ms
+2017-11-02 15:42:13.410   INFO [website,,,] 12660 --- [ost-startStop-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2eea15ce: startup date [Thu Nov 02 15:42:13 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d11ceef
+2017-11-02 15:42:13.433   INFO [website,,,] 12660 --- [ost-startStop-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:42:18.889   INFO [website,,,] 12660 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Trying to find master from available Sentinels...
+2017-11-02 15:42:19.086   INFO [website,,,] 12660 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Redis master running at 10.12.5.78:6679, starting Sentinel listeners...
+2017-11-02 15:42:19.254   INFO [website,,,] 12660 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Created JedisPool to master at 10.12.5.78:6679
+2017-11-02 15:42:22.079   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2017-11-02 15:42:22.080   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-02 15:42:22.080   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2017-11-02 15:42:22.080   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-11-02 15:42:22.080   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-02 15:42:22.080   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-02 15:42:22.082   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-02 15:42:22.082   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'versionFilter' to urls: [/*]
+2017-11-02 15:42:22.083   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-02 15:42:22.083   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-02 15:42:22.083   INFO [website,,,] 12660 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-02 15:42:29.030   WARN [website,,,] 12660 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-02 15:42:29.030   INFO [website,,,] 12660 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 15:42:29.038   WARN [website,,,] 12660 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-02 15:42:29.039   INFO [website,,,] 12660 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 15:42:30.335   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d11ceef: startup date [Thu Nov 02 15:42:02 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04
+2017-11-02 15:42:31.419   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/recheck]}" onto public org.springframework.web.servlet.ModelAndView com.hyh.cloud.website.MemberController.recheck(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2017-11-02 15:42:31.421   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public org.springframework.web.servlet.ModelAndView com.hyh.cloud.website.MemberController.welcome(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2017-11-02 15:42:31.437   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member/all]}" onto public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClientFallback.findAll(java.util.Map)
+2017-11-02 15:42:31.437   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member/detail]}" onto public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.member.client.dto.MemberDTO> com.hyh.cloud.member.client.MemberClientFallback.findById(java.lang.Long)
+2017-11-02 15:42:31.438   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member/create]}" onto public com.hyh.cloud.commons.base.dto.ResultDto<java.lang.Integer> com.hyh.cloud.member.client.MemberClientFallback.createMember(com.hyh.cloud.member.client.dto.MemberDTO)
+2017-11-02 15:42:31.438   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member/memberForLogin],methods=[POST]}" onto public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.member.client.dto.MemberDTO> com.hyh.cloud.member.client.MemberClientFallback.Login(com.hyh.cloud.member.client.dto.MemberDTO)
+2017-11-02 15:42:31.438   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member/members],methods=[POST]}" onto public com.hyh.cloud.commons.base.dto.ResultDto<java.util.List<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClientFallback.getMemberList(com.hyh.cloud.member.client.dto.MemberDTO)
+2017-11-02 15:42:31.438   INFO [website,,,] 12660 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/member/cache]}" onto public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.member.client.dto.MemberDTO> com.hyh.cloud.member.client.MemberClientFallback.MemberCache(java.lang.Long)
+2017-11-02 15:42:31.442   WARN [website,,,] 12660 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'com.hyh.cloud.member.client.MemberClient' method 
+public abstract com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClient.findAll(java.util.Map)
+to {[/member/all]}: There is already 'memberClientFallback' bean method
+public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClientFallback.findAll(java.util.Map) mapped.
+2017-11-02 15:42:31.448   INFO [website,,,] 12660 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2eea15ce: startup date [Thu Nov 02 15:42:13 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d11ceef
+2017-11-02 15:42:31.452   INFO [website,,,] 12660 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2017-11-02 15:42:31.853   INFO [website,,,] 12660 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-02 15:42:31.861  ERROR [website,,,] 12660 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'com.hyh.cloud.member.client.MemberClient' method 
+public abstract com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClient.findAll(java.util.Map)
+to {[/member/all]}: There is already 'memberClientFallback' bean method
+public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClientFallback.findAll(java.util.Map) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.hyh.cloud.WebsiteApplication.main(WebsiteApplication.java:23)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'com.hyh.cloud.member.client.MemberClient' method 
+public abstract com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClient.findAll(java.util.Map)
+to {[/member/all]}: There is already 'memberClientFallback' bean method
+public com.hyh.cloud.commons.base.dto.ResultDto<com.hyh.cloud.commons.base.remote.PageData<com.hyh.cloud.member.client.dto.MemberDTO>> com.hyh.cloud.member.client.MemberClientFallback.findAll(java.util.Map) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 16 common frames omitted
+
+2017-11-02 15:47:30.414   INFO [website,,,] 12976 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04: startup date [Thu Nov 02 15:47:30 CST 2017]; root of context hierarchy
+2017-11-02 15:47:31.001   INFO [website,,,] 12976 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:47:31.036   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75af210c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:31.577   INFO [website,,,] 12976 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-02 15:47:31.673   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2017-11-02 15:47:31.995   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-02 15:47:31.995   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-02 15:47:32.103   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-02 15:47:32.103   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-02 15:47:32.301   INFO [website,,,] 12976 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:47:32.445   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-02 15:47:32.445   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-02 15:47:32.446   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-02 15:47:32.446   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-02 15:47:32.446   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-02 15:47:32.446   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-02 15:47:32.446   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-02 15:47:32.640   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-02 15:47:32.643   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2017-11-02 15:47:32.648   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509608852648 with initial instances count: 6
+2017-11-02 15:47:33.085   INFO [website,,,] 12976 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at: http://10.12.8.198:8050/
+2017-11-02 15:47:34.006   INFO [website,,,] 12976 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=website, profiles=[dev], label=null, version=null, state=null
+2017-11-02 15:47:34.007   INFO [website,,,] 12976 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource [name='http://10.12.5.100/svn/hyhcode/branches/hy-passport/config/website-dev.properties'], MapPropertySource [name='http://10.12.5.100/svn/hyhcode/branches/hy-passport/config/website-dev.yml']]]
+2017-11-02 15:47:34.087   INFO [website,,,] 12976 --- [           main] com.hyh.cloud.WebsiteApplication         : No active profile set, falling back to default profiles: default
+2017-11-02 15:47:34.101   INFO [website,,,] 12976 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b74b35: startup date [Thu Nov 02 15:47:34 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04
+2017-11-02 15:47:35.242   INFO [website,,,] 12976 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-11-02 15:47:35.635   INFO [website,,,] 12976 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cb365acf-a823-3a7c-925d-c9ad1477ba23
+2017-11-02 15:47:35.653   INFO [website,,,] 12976 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:47:35.696   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hyh.cloud.passport.service.client.PassportClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:35.697   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hyh.cloud.member.client.MemberClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:35.795   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$96d6bbd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:35.947   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$5bfa6441] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.224   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.228   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$8bc1c450] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.257   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75af210c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.290   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9926f6d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.322   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$4178ca2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.347   INFO [website,,,] 12976 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$9e91b06e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 15:47:36.911   INFO [website,,,] 12976 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8500 (http)
+2017-11-02 15:47:36.925   INFO [website,,,] 12976 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-11-02 15:47:36.926   INFO [website,,,] 12976 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-02 15:47:37.087   INFO [website,,,] 12976 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-02 15:47:37.089   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2988 ms
+2017-11-02 15:47:37.240   INFO [website,,,] 12976 --- [ost-startStop-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@39932a4e: startup date [Thu Nov 02 15:47:37 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b74b35
+2017-11-02 15:47:37.257   INFO [website,,,] 12976 --- [ost-startStop-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:47:38.177   INFO [website,,,] 12976 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Trying to find master from available Sentinels...
+2017-11-02 15:47:38.304   INFO [website,,,] 12976 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Redis master running at 10.12.5.78:6679, starting Sentinel listeners...
+2017-11-02 15:47:38.320   INFO [website,,,] 12976 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Created JedisPool to master at 10.12.5.78:6679
+2017-11-02 15:47:38.855   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2017-11-02 15:47:38.856   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-02 15:47:38.856   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'versionFilter' to urls: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-02 15:47:38.857   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-02 15:47:38.858   INFO [website,,,] 12976 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-02 15:47:40.466   WARN [website,,,] 12976 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-02 15:47:40.466   INFO [website,,,] 12976 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 15:47:40.472   WARN [website,,,] 12976 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-02 15:47:40.473   INFO [website,,,] 12976 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 15:47:40.931   INFO [website,,,] 12976 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b74b35: startup date [Thu Nov 02 15:47:34 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04
+2017-11-02 15:47:41.153   INFO [website,,,] 12976 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public org.springframework.web.servlet.ModelAndView com.hyh.cloud.website.MemberController.welcome(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2017-11-02 15:47:41.154   INFO [website,,,] 12976 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/recheck]}" onto public org.springframework.web.servlet.ModelAndView com.hyh.cloud.website.MemberController.recheck(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2017-11-02 15:47:41.157   INFO [website,,,] 12976 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-02 15:47:41.157   INFO [website,,,] 12976 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-02 15:47:41.308   INFO [website,,,] 12976 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 15:47:41.308   INFO [website,,,] 12976 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 15:47:41.407   INFO [website,,,] 12976 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 15:47:42.929   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-11-02 15:47:42.929   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.930   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.930   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.931   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 15:47:42.931   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.932   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-11-02 15:47:42.932   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 15:47:42.933   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.935   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.936   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-11-02 15:47:42.936   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.937   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.938   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-11-02 15:47:42.940   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-11-02 15:47:42.940   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 15:47:42.941   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.942   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.943   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2017-11-02 15:47:42.943   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2017-11-02 15:47:42.943   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 15:47:42.944   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-11-02 15:47:42.944   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 15:47:42.944   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-11-02 15:47:42.945   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:42.946   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-11-02 15:47:42.946   INFO [website,,,] 12976 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 15:47:43.439   INFO [website,,,] 12976 --- [           main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-11-02 15:47:44.165   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2017-11-02 15:47:44.173   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2017-11-02 15:47:44.484   INFO [website,,,] 12976 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2017-11-02 15:47:44.695   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-02 15:47:44.710   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-02 15:47:44.712   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-02 15:47:44.712   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-11-02 15:47:44.713   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-11-02 15:47:44.714   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2017-11-02 15:47:44.715   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-02 15:47:44.719   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-02 15:47:44.734   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-11-02 15:47:44.751   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2017-11-02 15:47:44.769   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-02 15:47:44.788   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4b74b35,type=ConfigurationPropertiesRebinder]
+2017-11-02 15:47:44.796   INFO [website,,,] 12976 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-11-02 15:47:45.048   INFO [website,,,] 12976 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-11-02 15:47:45.053   INFO [website,,,] 12976 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-02 15:47:45.067   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2017-11-02 15:47:45.071   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-02 15:47:45.071   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-02 15:47:45.071   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-02 15:47:45.071   INFO [website,,,] 12976 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-02 15:47:45.119   INFO [website,,,] 12976 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-02 15:47:45.120   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-02 15:47:45.127   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-02 15:47:45.128   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-11-02 15:47:45.131   INFO [website,,,] 12976 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-02 15:47:45.133   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509608865133 with initial instances count: 6
+2017-11-02 15:47:45.266   INFO [website,,,] 12976 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application website with eureka with status UP
+2017-11-02 15:47:45.267   INFO [website,,,] 12976 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1509608865267, current=UP, previous=STARTING]
+2017-11-02 15:47:45.271   INFO [website,,,] 12976 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSITE/192.168.119.1:8500: registering service...
+2017-11-02 15:47:45.307   INFO [website,,,] 12976 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSITE/192.168.119.1:8500 - registration status: 204
+2017-11-02 15:47:45.333   INFO [website,,,] 12976 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-11-02 15:47:45.366   INFO [website,,,] 12976 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-02 15:47:45.433   INFO [website,,,] 12976 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8500 (http)
+2017-11-02 15:47:45.434   INFO [website,,,] 12976 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8500
+2017-11-02 15:47:45.442   INFO [website,,,] 12976 --- [           main] com.hyh.cloud.WebsiteApplication         : Started WebsiteApplication in 15.818 seconds (JVM running for 16.3)
+2017-11-02 15:47:50.975   INFO [website,,,] 12976 --- [nio-8500-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-02 15:47:50.976   INFO [website,,,] 12976 --- [nio-8500-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-02 15:47:51.028   INFO [website,,,] 12976 --- [nio-8500-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+2017-11-02 15:51:32.154 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@51daed61: startup date [Thu Nov 02 15:51:32 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b74b35
+2017-11-02 15:51:32.208 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 15:51:32.419 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] c.netflix.config.ChainedDynamicProperty  : Flipping property: passport-controller.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-11-02 15:51:32.726 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-passport-controller
+2017-11-02 15:51:32.761 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] c.netflix.loadbalancer.BaseLoadBalancer  : Client: passport-controller instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=passport-controller,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2017-11-02 15:51:32.768 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2017-11-02 15:51:32.796 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] c.netflix.config.ChainedDynamicProperty  : Flipping property: passport-controller.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-11-02 15:51:32.799 0a6bb9acb2cb9dcb  INFO [website,0a6bb9acb2cb9dcb,0a6bb9acb2cb9dcb,false] 12976 --- [nio-8500-exec-5] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client passport-controller initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=passport-controller,current list of Servers=[192.168.119.1:8436],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.119.1:8436;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1bdd9e53
+2017-11-02 15:51:33.877   INFO [website,,,] 12976 --- [erListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: passport-controller.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-11-02 15:52:45.138   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 15:57:45.156   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:02:45.173   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:03:23.635 d0a0bc2125126937 ERROR [website,d0a0bc2125126937,d0a0bc2125126937,false] 12976 --- [nio-8500-exec-9] freemarker.runtime                       : Error executing FreeMarker template
+
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> SESSION_USER  [in template "welcome.ftl" at line 3, column 15]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${SESSION_USER.userName}  [in template "welcome.ftl" at line 3, column 13]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:80)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:43)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:81)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:326)
+	at freemarker.core.Environment.visit(Environment.java:332)
+	at freemarker.core.Environment.process(Environment.java:305)
+	at freemarker.template.Template.process(Template.java:378)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:367)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:284)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:234)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.hyh.cloud.website.LoginFilter.doFilter(LoginFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:167)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.TraceFilter.doFilter(TraceFilter.java:169)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-11-02 16:03:23.640  ERROR [website,,,] 12976 --- [nio-8500-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> SESSION_USER  [in template "welcome.ftl" at line 3, column 15]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${SESSION_USER.userName}  [in template "welcome.ftl" at line 3, column 13]
+----] with root cause
+
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> SESSION_USER  [in template "welcome.ftl" at line 3, column 15]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${SESSION_USER.userName}  [in template "welcome.ftl" at line 3, column 13]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:80)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:43)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:81)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:326)
+	at freemarker.core.Environment.visit(Environment.java:332)
+	at freemarker.core.Environment.process(Environment.java:305)
+	at freemarker.template.Template.process(Template.java:378)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:367)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:284)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:234)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.hyh.cloud.website.LoginFilter.doFilter(LoginFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:167)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.TraceFilter.doFilter(TraceFilter.java:169)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-11-02 16:07:45.191   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:12:45.209   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:17:45.227   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:22:45.245   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:27:45.264   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:32:45.282   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:37:45.300   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:42:45.317   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:47:45.334   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:52:45.352   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 16:57:45.369   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:02:45.386   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:07:45.403   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:12:45.420   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:17:45.437   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:22:45.454   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:27:45.471   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:32:45.488   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:37:45.506   INFO [website,,,] 12976 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:57:23.261   INFO [website,,,] 3692 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04: startup date [Thu Nov 02 17:57:23 CST 2017]; root of context hierarchy
+2017-11-02 17:57:28.385   INFO [website,,,] 3692 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 17:57:28.451   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40c5b701] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:31.388   INFO [website,,,] 3692 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-02 17:57:31.569   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2017-11-02 17:57:41.329   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-02 17:57:41.330   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-02 17:57:41.471   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-02 17:57:41.472   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-02 17:57:42.669   INFO [website,,,] 3692 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:57:43.087   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-02 17:57:43.088   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-02 17:57:43.088   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-02 17:57:43.088   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-02 17:57:43.088   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-02 17:57:43.088   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-02 17:57:43.088   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-02 17:57:43.345   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-02 17:57:43.347   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2017-11-02 17:57:43.354   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509616663354 with initial instances count: 3
+2017-11-02 17:57:45.707   INFO [website,,,] 3692 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at: http://10.12.8.198:8050/
+2017-11-02 17:57:47.071   INFO [website,,,] 3692 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=website, profiles=[dev], label=null, version=null, state=null
+2017-11-02 17:57:47.072   INFO [website,,,] 3692 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource [name='http://10.12.5.100/svn/hyhcode/branches/hy-passport/config/website-dev.properties'], MapPropertySource [name='http://10.12.5.100/svn/hyhcode/branches/hy-passport/config/website-dev.yml']]]
+2017-11-02 17:57:47.252   INFO [website,,,] 3692 --- [           main] com.hyh.cloud.WebsiteApplication         : No active profile set, falling back to default profiles: default
+2017-11-02 17:57:47.277   INFO [website,,,] 3692 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5de6cf3a: startup date [Thu Nov 02 17:57:47 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04
+2017-11-02 17:57:51.309   INFO [website,,,] 3692 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-11-02 17:57:51.833   INFO [website,,,] 3692 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cb365acf-a823-3a7c-925d-c9ad1477ba23
+2017-11-02 17:57:51.858   INFO [website,,,] 3692 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 17:57:51.909   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hyh.cloud.passport.service.client.PassportClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:51.914   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.hyh.cloud.member.client.MemberClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:52.003   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$61ed51c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:52.480   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$2710fa36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:53.499   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:53.505   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$56d85a45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:53.546   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40c5b701] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:53.687   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$643d8cca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:53.725   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$c8f6023] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:53.760   INFO [website,,,] 3692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$69a84663] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 17:57:57.415   INFO [website,,,] 3692 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8500 (http)
+2017-11-02 17:57:57.430   INFO [website,,,] 3692 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-11-02 17:57:57.431   INFO [website,,,] 3692 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-02 17:57:58.147   INFO [website,,,] 3692 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-02 17:57:58.147   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10870 ms
+2017-11-02 17:58:00.578   INFO [website,,,] 3692 --- [ost-startStop-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1016d563: startup date [Thu Nov 02 17:58:00 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5de6cf3a
+2017-11-02 17:58:00.598   INFO [website,,,] 3692 --- [ost-startStop-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 17:58:03.285   INFO [website,,,] 3692 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Trying to find master from available Sentinels...
+2017-11-02 17:58:03.767   INFO [website,,,] 3692 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Redis master running at 10.12.5.78:6679, starting Sentinel listeners...
+2017-11-02 17:58:03.829   INFO [website,,,] 3692 --- [ost-startStop-1] redis.clients.jedis.JedisSentinelPool    : Created JedisPool to master at 10.12.5.78:6679
+2017-11-02 17:58:05.133   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2017-11-02 17:58:05.134   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-02 17:58:05.134   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2017-11-02 17:58:05.134   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-11-02 17:58:05.134   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-02 17:58:05.134   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-02 17:58:05.134   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-02 17:58:05.135   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'versionFilter' to urls: [/*]
+2017-11-02 17:58:05.135   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-02 17:58:05.135   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-02 17:58:05.135   INFO [website,,,] 3692 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-02 17:58:10.561   WARN [website,,,] 3692 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-02 17:58:10.561   INFO [website,,,] 3692 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 17:58:10.570   WARN [website,,,] 3692 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2017-11-02 17:58:10.571   INFO [website,,,] 3692 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 17:58:11.145   INFO [website,,,] 3692 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5de6cf3a: startup date [Thu Nov 02 17:57:47 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@49049a04
+2017-11-02 17:58:11.671   INFO [website,,,] 3692 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public org.springframework.web.servlet.ModelAndView com.hyh.cloud.website.MemberController.welcome(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2017-11-02 17:58:11.672   INFO [website,,,] 3692 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/recheck]}" onto public org.springframework.web.servlet.ModelAndView com.hyh.cloud.website.MemberController.recheck(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2017-11-02 17:58:11.675   INFO [website,,,] 3692 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-02 17:58:11.675   INFO [website,,,] 3692 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-02 17:58:11.841   INFO [website,,,] 3692 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 17:58:11.841   INFO [website,,,] 3692 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 17:58:11.953   INFO [website,,,] 3692 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 17:58:16.284   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.284   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.285   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 17:58:16.287   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-11-02 17:58:16.287   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 17:58:16.287   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.288   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.289   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-11-02 17:58:16.289   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.289   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 17:58:16.289   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-11-02 17:58:16.292   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.293   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.303   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.304   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-11-02 17:58:16.306   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.309   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.310   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-11-02 17:58:16.310   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.311   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 17:58:16.311   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-11-02 17:58:16.313   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-11-02 17:58:16.315   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 17:58:16.316   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 17:58:16.317   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2017-11-02 17:58:16.317   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2017-11-02 17:58:16.319   INFO [website,,,] 3692 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-11-02 17:58:17.108   INFO [website,,,] 3692 --- [           main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-11-02 17:58:18.542   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2017-11-02 17:58:18.566   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2017-11-02 17:58:18.974   INFO [website,,,] 3692 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2017-11-02 17:58:19.206   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-02 17:58:19.217   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-02 17:58:19.219   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-02 17:58:19.219   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-11-02 17:58:19.220   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-11-02 17:58:19.221   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2017-11-02 17:58:19.222   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-02 17:58:19.227   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-02 17:58:19.244   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-11-02 17:58:19.261   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2017-11-02 17:58:19.271   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-02 17:58:19.286   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5de6cf3a,type=ConfigurationPropertiesRebinder]
+2017-11-02 17:58:19.297   INFO [website,,,] 3692 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-11-02 17:58:19.972   INFO [website,,,] 3692 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-11-02 17:58:19.978   INFO [website,,,] 3692 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-02 17:58:20.039   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2017-11-02 17:58:20.044   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-02 17:58:20.045   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-02 17:58:20.045   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-02 17:58:20.045   INFO [website,,,] 3692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-02 17:58:20.198   INFO [website,,,] 3692 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2017-11-02 17:58:20.199   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-02 17:58:20.200   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-02 17:58:20.200   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-02 17:58:20.200   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-02 17:58:20.200   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-02 17:58:20.200   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-02 17:58:20.200   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-02 17:58:20.217   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-02 17:58:20.218   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-11-02 17:58:20.220   INFO [website,,,] 3692 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-02 17:58:20.221   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1509616700221 with initial instances count: 4
+2017-11-02 17:58:20.376   INFO [website,,,] 3692 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application website with eureka with status UP
+2017-11-02 17:58:20.377   INFO [website,,,] 3692 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1509616700377, current=UP, previous=STARTING]
+2017-11-02 17:58:20.438   INFO [website,,,] 3692 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-11-02 17:58:20.962   INFO [website,,,] 3692 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-02 17:58:22.392   INFO [website,,,] 3692 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSITE/192.168.119.1:8500: registering service...
+2017-11-02 17:58:22.662   INFO [website,,,] 3692 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSITE/192.168.119.1:8500 - registration status: 204
+2017-11-02 17:58:22.807   INFO [website,,,] 3692 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8500 (http)
+2017-11-02 17:58:22.876   INFO [website,,,] 3692 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8500
+2017-11-02 17:58:22.880   INFO [website,,,] 3692 --- [           main] com.hyh.cloud.WebsiteApplication         : Started WebsiteApplication in 65.178 seconds (JVM running for 66.241)
+2017-11-02 18:01:26.622   INFO [website,,,] 3692 --- [nio-8500-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-02 18:01:26.622   INFO [website,,,] 3692 --- [nio-8500-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-02 18:01:26.678   INFO [website,,,] 3692 --- [nio-8500-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2017-11-02 18:01:26.715 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3116094d: startup date [Thu Nov 02 18:01:26 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5de6cf3a
+2017-11-02 18:01:26.772 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 18:01:26.944 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] c.netflix.config.ChainedDynamicProperty  : Flipping property: passport-controller.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-11-02 18:01:26.975 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-passport-controller
+2017-11-02 18:01:27.004 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] c.netflix.loadbalancer.BaseLoadBalancer  : Client: passport-controller instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=passport-controller,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2017-11-02 18:01:27.012 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2017-11-02 18:01:27.035 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] c.netflix.config.ChainedDynamicProperty  : Flipping property: passport-controller.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-11-02 18:01:27.037 4b05e2aae783aea5  INFO [website,4b05e2aae783aea5,4b05e2aae783aea5,false] 3692 --- [nio-8500-exec-7] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client passport-controller initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=passport-controller,current list of Servers=[192.168.119.1:8436],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.119.1:8436;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4ef6a057
+2017-11-02 18:01:28.016   INFO [website,,,] 3692 --- [erListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: passport-controller.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647

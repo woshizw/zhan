@@ -1,0 +1,37 @@
+server.port=8435
+#server.tomcat.max-threads=800
+#server.tomcat.acceptCount=1000
+# tomcat\u7684URI\u7F16\u7801
+#server.tomcat.uri-encoding=UTF-8
+# \u5B58\u653ETomcat\u7684\u65E5\u5FD7\u3001Dump\u7B49\u6587\u4EF6\u7684\u4E34\u65F6\u6587\u4EF6\u5939\uFF0C\u9ED8\u8BA4\u4E3A\u7CFB\u7EDF\u7684tmp\u6587\u4EF6\u5939\uFF08\u5982\uFF1AC:\Users\Angel\AppData\Local\Temp\uFF09
+#server.tomcat.basedir=D:/springboot-tomcat-tmp
+profile=abcd
+#spring.zipkin.base-url=http://10.12.5.149:9411
+#spring.sleuth.sampler.percentage=1.0
+cloud.ucs.service.id=ucs-service
+cloud.sequence.service.id=sequence-service
+cloud.sso.service.id=sso-service
+cookie.domain=hyh.dev
+cookie.userTokenName=CHYJRTGN_APP1
+cookie.userTokenKey=chyjrkey_APP1
+cookie.userTokenKeyCacheName=CacheKey_APP1
+loginTimeOut=20
+spring.resources.static-locations=classpath:/static/  
+spring.freemarker.template-loader-path=classpath:/templates/
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=10000
+#feign.httpclient.enabled=true
+#feign.okhttp.enabled=true
+management.security.enabled=false
+ribbon.ConnectTimeout=3000
+ribbon.OkToRetryOnAllOperations=false
+ribbon.MaxAutoRetriesNextServer=1
+ribbon.MaxAutoRetries=1
+#zuul.okhttp.enabled=true
+management.security.enabled=false
+# Read timeout used by Apache HttpClient
+ribbon.ReadTimeout=10000
+# \u542F\u7528shutdown
+endpoints.shutdown.enabled=true
+
+# \u7981\u7528\u5BC6\u7801\u9A8C\u8BC1
+endpoints.shutdown.sensitive=false

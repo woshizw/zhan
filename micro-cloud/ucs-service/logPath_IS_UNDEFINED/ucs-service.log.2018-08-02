@@ -1,0 +1,496 @@
+2018-08-02 09:48:35.789   INFO [ucs-service,,,] 568 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@782859e: startup date [Thu Aug 02 09:48:35 CST 2018]; root of context hierarchy
+2018-08-02 09:48:36.186   INFO [ucs-service,,,] 568 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 09:48:36.228   INFO [ucs-service,,,] 568 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ea5df492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-02 09:48:36.487   INFO [ucs-service,,,] 568 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-08-02 09:48:36.575   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-08-02 09:48:36.867   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-08-02 09:48:36.867   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-08-02 09:48:37.055   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-08-02 09:48:37.055   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-08-02 09:48:37.323   INFO [ucs-service,,,] 568 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 09:48:37.371   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-08-02 09:48:37.371   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-08-02 09:48:37.372   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-08-02 09:48:37.372   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-08-02 09:48:37.372   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-08-02 09:48:37.372   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-08-02 09:48:37.372   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-08-02 09:48:37.628   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-08-02 09:48:37.632   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2018-08-02 09:48:37.638   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1533174517636 with initial instances count: 4
+2018-08-02 09:48:40.437   INFO [ucs-service,,,] 568 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://instance-r9joajrh:8050/
+2018-08-02 09:48:41.180   INFO [ucs-service,,,] 568 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ucs-service, profiles=[dev], label=null, version=66, state=null
+2018-08-02 09:48:41.183   INFO [ucs-service,,,] 568 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='svn://106.12.11.54/zhan/micro-cloud//config/ucs-service-dev.properties'}, MapPropertySource {name='svn://106.12.11.54/zhan/micro-cloud//config/ucs-service-dev.yml'}]}
+2018-08-02 09:48:45.417   INFO [ucs-service,,,] 568 --- [           main] com.zhan.cloud.UcsApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 09:48:45.432   INFO [ucs-service,,,] 568 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710d89e2: startup date [Thu Aug 02 09:48:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@782859e
+2018-08-02 09:48:46.327   INFO [ucs-service,,,] 568 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-02 09:48:46.610   INFO [ucs-service,,,] 568 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-08-02 09:48:46.888   INFO [ucs-service,,,] 568 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5346d58c-ec99-3506-b48c-69a6f55b7eaf
+2018-08-02 09:48:46.928   INFO [ucs-service,,,] 568 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 09:48:47.288   INFO [ucs-service,,,] 568 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce43f195] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-02 09:48:47.360   INFO [ucs-service,,,] 568 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ea5df492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-02 09:48:47.781   INFO [ucs-service,,,] 568 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8054 (http)
+2018-08-02 09:48:47.816   INFO [ucs-service,,,] 568 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 09:48:47.817   INFO [ucs-service,,,] 568 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-02 09:48:47.829   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_171/bin/server;D:/Java/jre1.8.0_171/bin;D:/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\tools\Python36\Scripts\;D:\tools\Python36\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\EmEditor;D:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\Desktop;;.]
+2018-08-02 09:48:48.032   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 09:48:48.032   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2600 ms
+2018-08-02 09:48:48.407   WARN [ucs-service,,,] 568 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-02 09:48:48.408   INFO [ucs-service,,,] 568 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-02 09:48:48.434   INFO [ucs-service,,,] 568 --- [ost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@46638e04
+2018-08-02 09:48:50.731   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'tracingFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'exceptionLoggingFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-08-02 09:48:50.732   INFO [ucs-service,,,] 568 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-08-02 09:48:50.899   WARN [ucs-service,,,] 568 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-02 09:48:50.900   INFO [ucs-service,,,] 568 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-02 09:48:51.068   INFO [ucs-service,,,] 568 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 09:48:51.499   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710d89e2: startup date [Thu Aug 02 09:48:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@782859e
+2018-08-02 09:48:51.599   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/detail]}" onto public com.zhan.cloud.service.entity.User com.zhan.cloud.service.ucs.service.UserService.findById(java.lang.Long)
+2018-08-02 09:48:51.601   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/getUser],methods=[POST]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<com.zhan.cloud.service.entity.User> com.zhan.cloud.service.ucs.service.UserService.getUser(com.zhan.cloud.service.entity.User)
+2018-08-02 09:48:51.601   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/create]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<java.lang.Integer> com.zhan.cloud.service.ucs.service.UserService.createUser(com.zhan.cloud.service.entity.User)
+2018-08-02 09:48:51.604   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/all]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<com.github.pagehelper.PageInfo<com.zhan.cloud.service.entity.User>> com.zhan.cloud.service.ucs.service.UserService.findAll(java.util.Map)
+2018-08-02 09:48:51.604   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/cache]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<com.zhan.cloud.service.entity.User> com.zhan.cloud.service.ucs.service.UserService.userCache(java.lang.Long)
+2018-08-02 09:48:51.606   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/version/3/user/detail]}" onto public com.zhan.cloud.service.entity.User com.zhan.cloud.service.ucs.service.UserServiceV3.findById(java.lang.Long)
+2018-08-02 09:48:51.607   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/version/3/user/getUser],methods=[POST]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<com.zhan.cloud.service.entity.User> com.zhan.cloud.service.ucs.service.UserServiceV3.getUser(com.zhan.cloud.service.entity.User)
+2018-08-02 09:48:51.607   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/version/3/user/create]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<java.lang.Integer> com.zhan.cloud.service.ucs.service.UserServiceV3.createUser(com.zhan.cloud.service.entity.User)
+2018-08-02 09:48:51.608   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/version/3/user/all]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<com.github.pagehelper.PageInfo<com.zhan.cloud.service.entity.User>> com.zhan.cloud.service.ucs.service.UserServiceV3.findAll(java.util.Map)
+2018-08-02 09:48:51.608   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/version/3/user/cache]}" onto public com.zhan.cloud.commons.base.dto.ResultDto<com.zhan.cloud.service.entity.User> com.zhan.cloud.service.ucs.service.UserServiceV3.userCache(java.lang.Long)
+2018-08-02 09:48:51.610   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 09:48:51.611   INFO [ucs-service,,,] 568 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 09:48:51.671   INFO [ucs-service,,,] 568 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 09:48:51.672   INFO [ucs-service,,,] 568 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 09:48:53.274   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-08-02 09:48:53.281   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-08-02 09:48:53.500   INFO [ucs-service,,,] 568 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-08-02 09:48:53.516   INFO [ucs-service,,,] 568 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-02 09:48:53.517   INFO [ucs-service,,,] 568 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-02 09:48:53.518   INFO [ucs-service,,,] 568 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 09:48:53.599   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 09:48:53.601   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 09:48:53.611   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-02 09:48:53.612   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-02 09:48:53.613   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-02 09:48:53.617   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-02 09:48:53.628   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-02 09:48:53.645   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=710d89e2,type=ConfigurationPropertiesRebinder]
+2018-08-02 09:48:53.653   INFO [ucs-service,,,] 568 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 09:48:53.676   INFO [ucs-service,,,] 568 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-08-02 09:48:53.681   INFO [ucs-service,,,] 568 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-08-02 09:48:53.689   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-08-02 09:48:53.692   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-08-02 09:48:53.692   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-08-02 09:48:53.692   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-08-02 09:48:53.692   INFO [ucs-service,,,] 568 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-08-02 09:48:53.746   INFO [ucs-service,,,] 568 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 09:48:53.747   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-08-02 09:48:53.748   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-08-02 09:48:53.748   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-08-02 09:48:53.748   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-08-02 09:48:53.748   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-08-02 09:48:53.748   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-08-02 09:48:53.748   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-08-02 09:48:53.786   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-08-02 09:48:53.787   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-08-02 09:48:53.791   INFO [ucs-service,,,] 568 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-08-02 09:48:53.794   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1533174533794 with initial instances count: 4
+2018-08-02 09:48:53.804   INFO [ucs-service,,,] 568 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ucs-service with eureka with status UP
+2018-08-02 09:48:53.805   INFO [ucs-service,,,] 568 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1533174533805, current=UP, previous=STARTING]
+2018-08-02 09:48:53.807   INFO [ucs-service,,,] 568 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054: registering service...
+2018-08-02 09:48:53.826   INFO [ucs-service,,,] 568 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing FeignContext-sequence-service: startup date [Thu Aug 02 09:48:53 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710d89e2
+2018-08-02 09:48:53.838   INFO [ucs-service,,,] 568 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 09:48:53.862   INFO [ucs-service,,,] 568 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054 - registration status: 204
+2018-08-02 09:48:54.025   INFO [ucs-service,,,] 568 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8054 (http) with context path ''
+2018-08-02 09:48:54.027   INFO [ucs-service,,,] 568 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8054
+2018-08-02 09:48:54.029   INFO [ucs-service,,,] 568 --- [           main] com.zhan.cloud.UcsApplication            : Started UcsApplication in 19.35 seconds (JVM running for 19.824)
+2018-08-02 09:49:34.714   INFO [ucs-service,,,] 568 --- [nio-8054-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-02 09:49:34.714   INFO [ucs-service,,,] 568 --- [nio-8054-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-02 09:49:34.756   INFO [ucs-service,,,] 568 --- [nio-8054-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+2018-08-02 09:53:53.768   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 09:58:53.788   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:03:53.808   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:08:53.828   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:13:53.847   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:18:53.867   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:23:53.887   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:28:53.916   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:33:53.938   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:38:53.958   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:43:53.977   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:48:53.997   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:53:54.017   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 10:58:54.037   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:03:54.056   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:08:54.077   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:13:54.097   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:18:54.117   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:23:54.138   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:28:54.163   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:33:54.183   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:38:54.202   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:43:54.222   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:48:54.242   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:53:54.261   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 11:58:54.281   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:03:54.300   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:08:54.320   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:13:54.339   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:18:54.359   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:38:02.521   WARN [ucs-service,,,] 568 --- [scoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:64)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-08-02 12:38:02.523   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8761: No route to host: connect
+2018-08-02 12:38:02.523   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8761
+2018-08-02 12:38:02.524   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8761: No route to host: connect
+2018-08-02 12:38:02.524   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8761
+2018-08-02 12:38:02.524   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8761: No route to host: connect
+2018-08-02 12:38:02.525   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8761
+2018-08-02 12:38:02.526  ERROR [ucs-service,,,] 568 --- [tbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.NoRouteToHostException: No route to host: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+
+2018-08-02 12:38:02.537   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:38:02.541  ERROR [ucs-service,,,] 568 --- [freshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+
+2018-08-02 12:38:02.573   WARN [ucs-service,,,] 568 --- [tbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.NoRouteToHostException: No route to host: connect
+2018-08-02 12:38:02.575   WARN [ucs-service,,,] 568 --- [freshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2018-08-02 12:38:02.576   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8761: No route to host: connect
+2018-08-02 12:38:02.576   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8761
+2018-08-02 12:38:02.576   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8761: No route to host: connect
+2018-08-02 12:38:02.576   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8761
+2018-08-02 12:38:02.577   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8761: No route to host: connect
+2018-08-02 12:38:02.577   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8761
+2018-08-02 12:38:02.578  ERROR [ucs-service,,,] 568 --- [freshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.NoRouteToHostException: No route to host: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+
+2018-08-02 12:38:02.578   WARN [ucs-service,,,] 568 --- [freshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.NoRouteToHostException: No route to host: connect
+2018-08-02 12:38:02.589   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8762: No route to host: connect
+2018-08-02 12:38:02.589   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8762
+2018-08-02 12:38:02.599   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8762: No route to host: connect
+2018-08-02 12:38:02.599   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8762
+2018-08-02 12:38:02.599   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8762: No route to host: connect
+2018-08-02 12:38:02.599   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8762
+2018-08-02 12:38:02.600   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8762: No route to host: connect
+2018-08-02 12:38:02.600   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8762
+2018-08-02 12:38:02.600   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8762: No route to host: connect
+2018-08-02 12:38:02.600   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8762
+2018-08-02 12:38:02.601  ERROR [ucs-service,,,] 568 --- [tbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.NoRouteToHostException: No route to host: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+
+2018-08-02 12:38:02.601   WARN [ucs-service,,,] 568 --- [tbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.NoRouteToHostException: No route to host: connect
+2018-08-02 12:38:02.601  ERROR [ucs-service,,,] 568 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-08-02 12:38:02.620   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://106.12.11.54:8762: No route to host: connect
+2018-08-02 12:38:02.621   INFO [ucs-service,,,] 568 --- [freshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://106.12.11.54:8762
+2018-08-02 12:38:02.624  ERROR [ucs-service,,,] 568 --- [freshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.NoRouteToHostException: No route to host: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+
+2018-08-02 12:38:02.624   WARN [ucs-service,,,] 568 --- [freshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.NoRouteToHostException: No route to host: connect
+2018-08-02 12:38:02.624  ERROR [ucs-service,,,] 568 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054 - was unable to refresh its cache! status = Retry limit reached; giving up on completing the request
+
+com.netflix.discovery.shared.transport.TransportException: Retry limit reached; giving up on completing the request
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:139)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-08-02 12:38:32.640   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054 - Re-registering apps/UCS-SERVICE
+2018-08-02 12:38:32.640   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054: registering service...
+2018-08-02 12:38:32.660   INFO [ucs-service,,,] 568 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UCS-SERVICE/${spring.cloud.client.ipAddress}:ucs-service:8054 - registration status: 204
+2018-08-02 12:43:02.597   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-02 12:48:02.621   INFO [ucs-service,,,] 568 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

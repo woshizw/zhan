@@ -1,0 +1,107 @@
+package com.zhan.cloud.service.sequence.service;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.NotBlank;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.zhan.cloud.commons.base.constant.DbConstant;
+import com.zhan.cloud.service.sequence.dao.SequenceMapper;
+import com.zhan.cloud.service.sequence.entity.Sequence;
+
+
+@RefreshScope
+@RestController
+@ConfigurationProperties
+@Transactional(propagation = Propagation.REQUIRED)
+@RequestMapping("/sequence")
+public class SequenceService {
+	
+	private static final Logger LOGGER = LoggerFactory
+			.getLogger(SequenceService.class);
+	
+	private static Map<String, Sequence> sequenceMap = new HashMap<String, Sequence>();
+	@Autowired
+	private SequenceMapper sequenceMapper;
+
+	@ResponseBody
+	@RequestMapping("/generate")
+	@HystrixCommand(fallbackMethod = "hiErr")
+	@NotBlank
+	//@NotBlank(message = "name不能为空")
+  //  @Size(min = 5, max = 10, message = "字符在5到10个")
+	@NotNull(message = "keyName不能为空")
+	public  Long generateSequence(@RequestParam final String keyName) {
+		
+		Sequence sequence = sequenceMap.get(keyName);
+		Long key=null;
+		if (null == sequence) {
+			key= initMapByKeyName(keyName);
+		} else {
+			synchronized (this) {
+				key = sequence.getNextKey();
+				LOGGER.info("---进入同步模块---");
+				long maxValue = sequence.getMaxValue();
+				if (key == maxValue) {
+					sequenceMap.remove(key);
+				}
+			}
+					
+		}		
+		return key;
+	}
+
+	public Long hiErr(@RequestBody final String keyName){
+        return -1L;
+    }
+	/**
+	 * 初始化某个keyName的sequence
+	 * 
+	 * @param keyName
+	 */
+	private Long initMapByKeyName(String keyName) {
+		Sequence sequence = sequenceMapper.selectByKeyName(keyName);
+		if(null == sequence){
+			sequence = new Sequence();
+			sequence.setKeyName(keyName);
+			sequence.setInitValue(DbConstant.SEQUENCE_INIT_VALUE);
+			sequence.setCurValue(DbConstant.SEQUENCE_CURRENT_VALUE);
+			sequence.setPoolSize(DbConstant.SEQUENCE_POOL_SIZE);
+			sequence.setCreateDate(new Date());
+			sequence.setCreateBy(DbConstant.SEQUENCE_USER_ROLE_SYS);
+			sequence.setUpdateDate(new Date());
+			sequence.setUpdateBy(DbConstant.SEQUENCE_USER_ROLE_SYS);
+			sequence.setVersion(DbConstant.SEQUENCE_VERSION);
+			sequenceMapper.addSequence(sequence);
+			sequence.setCurValue(DbConstant.SEQUENCE_CURRENT_VALUE-DbConstant.SEQUENCE_POOL_SIZE);
+			sequence.setMaxValue(DbConstant.SEQUENCE_CURRENT_VALUE-1);
+			sequenceMap.put(keyName, sequence);
+			return sequence.getCurValue();
+		}else{
+			sequence.setUpdateDate(new Date());
+			sequence.setUpdateBy(DbConstant.SEQUENCE_USER_ROLE_SYS);
+			sequenceMapper.updateSequence(sequence);
+			sequence.setMaxValue(sequence.getCurValue()+DbConstant.SEQUENCE_POOL_SIZE-1L);
+			sequenceMap.put(keyName, sequence);
+			return sequence.getCurValue();	
+		}
+
+	}
+
+}

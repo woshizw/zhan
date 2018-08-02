@@ -1,0 +1,14 @@
+server.port=8072
+
+mybatis.mapper-locations=classpath:/mapper/*Mapper.xml
+mybatis.type-aliases-package=com.zhan.cloud.service.sequence.entity
+#spring.zipkin.base-url=http://10.12.5.149:9411
+#spring.sleuth.sampler.percentage=1.0
+management.endpoint.health.enabled=true
+management.endpoints.jmx.exposure.include=*
+management.endpoints.web.exposure.include=*
+management.endpoints.web.base-path=/actuator
+management.endpoints.web.cors.allowed-origins=true
+management.endpoint.health.show-details=always
+eureka.instance.preferIpAddress=true
+

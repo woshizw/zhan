@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hyh.cloud.give.bag.mapper.CampaignMapper">
+	<resultMap id="Campaign" type="com.hyh.cloud.give.bag.bean.Campaign">
+		<result property="beginDate" column="begin_date" />
+		<result property="creator" column="creator" />
+		<result property="endDate" column="end_date" />
+		<result property="createTime" column="create_time" />
+		<result property="name" column="name" />
+		<result property="description" column="description" />
+		<result property="updateTime" column="update_time" />
+		<result property="id" column="id" />
+		<result property="status" column="status" />
+	</resultMap>
+
+	<sql id="column">
+		begin_date,
+		creator,
+		end_date,
+		create_time,
+		name,
+		description,
+		update_time,
+		id,
+		status
+	</sql>
+
+	<sql id="variable">
+		#{item.beginDate},
+		#{item.creator},
+		#{item.endDate},
+		#{item.createTime},
+		#{item.name},
+		#{item.description},
+		#{item.updateTime},
+		#{item.id},
+		#{item.status}
+	</sql>
+
+	<sql id="common_where">
+		<if test="creator != null"> AND creator = #{creator}</if>
+		<if test="name != null"> AND name = #{name}</if>
+		<if test="description != null"> AND description = #{description}</if>
+		<if test="id != null"> AND id = #{id}</if>
+		<if test="status != null"> AND status = #{status}</if>
+	</sql>
+
+	<sql id="date_where">
+		<if test="gtBeginDate != null"> AND begin_date &gt;= #{gtBeginDate}</if>
+		<if test="ltBeginDate != null"> AND begin_date &lt;= #{ltBeginDate}</if>
+		<if test="gtEndDate != null"> AND end_date &gt;= #{gtEndDate}</if>
+		<if test="ltEndDate != null"> AND end_date &lt;= #{ltEndDate}</if>
+		<if test="gtCreateTime != null"> AND create_time &gt;= #{gtCreateTime}</if>
+		<if test="ltCreateTime != null"> AND create_time &lt;= #{ltCreateTime}</if>
+		<if test="gtUpdateTime != null"> AND update_time &gt;= #{gtUpdateTime}</if>
+		<if test="ltUpdateTime != null"> AND update_time &lt;= #{ltUpdateTime}</if>
+	</sql>
+
+	<sql id="common_sort">
+		<if test="sort != null"> ORDER BY #{sort} </if>
+	</sql>
+
+	<sql id="in_where">
+		<if test="ids!=null">
+			AND id IN 
+			<foreach item="item" index="i" collection="ids" separator="," open="(" close=")" >
+				#{item}
+			</foreach>
+		</if>
+	</sql>
+
+	<insert id="batchAdd" parameterType="com.hyh.cloud.give.bag.bean.Campaign">
+		INSERT INTO cld_campaign (
+			<include refid="column"/>)
+		VALUES <foreach collection="list" item="item" index="index" separator=","> (
+			<include refid="variable"/>)</foreach>
+	</insert>
+
+	<select id="queryListByParam" parameterType="map" resultMap="AssetsResultMap">
+		SELECT <include refid="column"/> FROM cld_campaign
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+		<include refid="common_sort"/>  
+	</select>
+
+	<select id="queryCountByParam" parameterType="map" resultType="java.lang.Integer">
+		SELECT count(1) FROM cld_campaign
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+	</select>
+
+</mapper>

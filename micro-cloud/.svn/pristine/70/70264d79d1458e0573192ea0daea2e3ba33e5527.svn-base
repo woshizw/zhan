@@ -1,0 +1,26 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: hyh-config-server-eureka
+  cloud:
+    config:
+      server:
+       # git:
+        #  uri: https://github.com/eacdy/spring-cloud-study/
+        #  search-paths: config-repo
+         # username: zhangw
+         # password: zhangw1234
+        svn:  
+          uri: svn://106.12.11.54/zhan/micro-cloud/  
+          username: zhangwei  
+          password: audatex
+          default-label: config  
+  profiles:  
+    active: subversion
+eureka:
+  instance:
+     preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://106.12.11.54:8761/eureka/,http://106.12.11.54:8762/eureka/

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.zhan.cloud.service.sequence.dao.SequenceMapper">
+
+	<select id="selectByKeyName" resultType="Sequence" parameterType="String">
+		SELECT 
+			keyName,poolSize,curValue 
+		FROM 
+			sequence 
+		WHERE 
+			keyName = #{keyName}
+		FOR UPDATE
+	</select>
+
+	<insert id="addSequence" parameterType="Sequence">
+		insert into sequence(keyName,initValue,poolSize,curValue,
+			createBy,createDate,updateBy,updateDate,version) 
+		values
+		(
+			#{keyName},#{initValue},#{poolSize},#{curValue},#{createBy},#{createDate},#{updateBy},#{updateDate},#{version}
+		)
+	</insert>
+	
+
+	<update id="updateSequence" parameterType="Sequence">
+		UPDATE
+			sequence
+		SET
+			curValue = curValue+poolSize,
+			updateBy = #{updateBy},
+		  	updateDate = #{updateDate},
+		  	version = version+1	  	
+		WHERE
+			keyName = #{keyName}
+	</update>
+</mapper>

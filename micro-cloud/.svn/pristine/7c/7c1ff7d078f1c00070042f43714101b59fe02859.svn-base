@@ -1,0 +1,2 @@
+curl -X POST  10.11.26.48:8435/shutdown
+curl -I -X DELETE http://10.12.5.149:8761/eureka/apps/UCS-SERVICE/192.168.119.1:ucs-service:8052

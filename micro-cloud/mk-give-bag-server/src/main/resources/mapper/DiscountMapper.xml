@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hyh.cloud.give.bag.mapper.DiscountMapper">
+	<resultMap id="Discount" type="com.hyh.cloud.give.bag.bean.Discount">
+		<result property="minAmount" column="min_amount" />
+		<result property="amount" column="amount" />
+		<result property="creator" column="creator" />
+		<result property="serialNum" column="serial_num" />
+		<result property="expireInDays" column="expire_in_days" />
+		<result property="isTransfer" column="is_transfer" />
+		<result property="description" column="description" />
+		<result property="rule" column="rule" />
+		<result property="updateTime" column="update_time" />
+		<result property="type" column="type" />
+		<result property="usageScope" column="usage_scope" />
+		<result property="dayType" column="day_type" />
+		<result property="rateDays" column="rate_days" />
+		<result property="rate" column="rate" />
+		<result property="createTime" column="create_time" />
+		<result property="name" column="name" />
+		<result property="isWithdraw" column="is_withdraw" />
+		<result property="expireDate" column="expire_date" />
+		<result property="id" column="id" />
+		<result property="maxAmount" column="max_amount" />
+		<result property="proPeriod" column="pro_period" />
+		<result property="startDate" column="start_date" />
+		<result property="status" column="status" />
+	</resultMap>
+
+	<sql id="column">
+		min_amount,
+		amount,
+		creator,
+		serial_num,
+		expire_in_days,
+		is_transfer,
+		description,
+		rule,
+		update_time,
+		type,
+		usage_scope,
+		day_type,
+		rate_days,
+		rate,
+		create_time,
+		name,
+		is_withdraw,
+		expire_date,
+		id,
+		max_amount,
+		pro_period,
+		start_date,
+		status
+	</sql>
+
+	<sql id="variable">
+		#{item.minAmount},
+		#{item.amount},
+		#{item.creator},
+		#{item.serialNum},
+		#{item.expireInDays},
+		#{item.isTransfer},
+		#{item.description},
+		#{item.rule},
+		#{item.updateTime},
+		#{item.type},
+		#{item.usageScope},
+		#{item.dayType},
+		#{item.rateDays},
+		#{item.rate},
+		#{item.createTime},
+		#{item.name},
+		#{item.isWithdraw},
+		#{item.expireDate},
+		#{item.id},
+		#{item.maxAmount},
+		#{item.proPeriod},
+		#{item.startDate},
+		#{item.status}
+	</sql>
+
+	<sql id="common_where">
+		<if test="minAmount != null"> AND min_amount = #{minAmount}</if>
+		<if test="amount != null"> AND amount = #{amount}</if>
+		<if test="creator != null"> AND creator = #{creator}</if>
+		<if test="serialNum != null"> AND serial_num = #{serialNum}</if>
+		<if test="expireInDays != null"> AND expire_in_days = #{expireInDays}</if>
+		<if test="isTransfer != null"> AND is_transfer = #{isTransfer}</if>
+		<if test="description != null"> AND description = #{description}</if>
+		<if test="rule != null"> AND rule = #{rule}</if>
+		<if test="type != null"> AND type = #{type}</if>
+		<if test="usageScope != null"> AND usage_scope = #{usageScope}</if>
+		<if test="dayType != null"> AND day_type = #{dayType}</if>
+		<if test="rateDays != null"> AND rate_days = #{rateDays}</if>
+		<if test="rate != null"> AND rate = #{rate}</if>
+		<if test="name != null"> AND name = #{name}</if>
+		<if test="isWithdraw != null"> AND is_withdraw = #{isWithdraw}</if>
+		<if test="id != null"> AND id = #{id}</if>
+		<if test="maxAmount != null"> AND max_amount = #{maxAmount}</if>
+		<if test="proPeriod != null"> AND pro_period = #{proPeriod}</if>
+		<if test="status != null"> AND status = #{status}</if>
+	</sql>
+
+	<sql id="date_where">
+		<if test="gtUpdateTime != null"> AND update_time &gt;= #{gtUpdateTime}</if>
+		<if test="ltUpdateTime != null"> AND update_time &lt;= #{ltUpdateTime}</if>
+		<if test="gtCreateTime != null"> AND create_time &gt;= #{gtCreateTime}</if>
+		<if test="ltCreateTime != null"> AND create_time &lt;= #{ltCreateTime}</if>
+		<if test="gtExpireDate != null"> AND expire_date &gt;= #{gtExpireDate}</if>
+		<if test="ltExpireDate != null"> AND expire_date &lt;= #{ltExpireDate}</if>
+		<if test="gtStartDate != null"> AND start_date &gt;= #{gtStartDate}</if>
+		<if test="ltStartDate != null"> AND start_date &lt;= #{ltStartDate}</if>
+	</sql>
+
+	<sql id="common_sort">
+		<if test="sort != null"> ORDER BY #{sort} </if>
+	</sql>
+
+	<sql id="in_where">
+		<if test="ids!=null">
+			AND id IN 
+			<foreach item="item" index="i" collection="ids" separator="," open="(" close=")" >
+				#{item}
+			</foreach>
+		</if>
+	</sql>
+
+	<insert id="batchAdd" parameterType="com.hyh.cloud.give.bag.bean.Discount">
+		INSERT INTO cld_discount (
+			<include refid="column"/>)
+		VALUES <foreach collection="list" item="item" index="index" separator=","> (
+			<include refid="variable"/>)</foreach>
+	</insert>
+
+	<select id="queryListByParam" parameterType="map" resultMap="AssetsResultMap">
+		SELECT <include refid="column"/> FROM cld_discount
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+		<include refid="common_sort"/>  
+	</select>
+
+	<select id="queryCountByParam" parameterType="map" resultType="java.lang.Integer">
+		SELECT count(1) FROM cld_discount
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+	</select>
+
+</mapper>

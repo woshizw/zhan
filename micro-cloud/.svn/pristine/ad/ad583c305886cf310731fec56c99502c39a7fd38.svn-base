@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hyh.cloud.give.bag.mapper.RuleConfigMapper">
+	<resultMap id="RuleConfig" type="com.hyh.cloud.give.bag.bean.RuleConfig">
+		<result property="varName" column="var_name" />
+		<result property="varType" column="var_type" />
+		<result property="creator" column="creator" />
+		<result property="varValue" column="var_value" />
+		<result property="createTime" column="create_time" />
+		<result property="configNo" column="config_no" />
+		<result property="className" column="class_name" />
+		<result property="id" column="id" />
+		<result property="ruleId" column="rule_id" />
+		<result property="operation" column="operation" />
+		<result property="status" column="status" />
+	</resultMap>
+
+	<sql id="column">
+		var_name,
+		var_type,
+		creator,
+		var_value,
+		create_time,
+		config_no,
+		class_name,
+		id,
+		rule_id,
+		operation,
+		status
+	</sql>
+
+	<sql id="variable">
+		#{item.varName},
+		#{item.varType},
+		#{item.creator},
+		#{item.varValue},
+		#{item.createTime},
+		#{item.configNo},
+		#{item.className},
+		#{item.id},
+		#{item.ruleId},
+		#{item.operation},
+		#{item.status}
+	</sql>
+
+	<sql id="common_where">
+		<if test="varName != null"> AND var_name = #{varName}</if>
+		<if test="varType != null"> AND var_type = #{varType}</if>
+		<if test="creator != null"> AND creator = #{creator}</if>
+		<if test="varValue != null"> AND var_value = #{varValue}</if>
+		<if test="configNo != null"> AND config_no = #{configNo}</if>
+		<if test="className != null"> AND class_name = #{className}</if>
+		<if test="id != null"> AND id = #{id}</if>
+		<if test="ruleId != null"> AND rule_id = #{ruleId}</if>
+		<if test="operation != null"> AND operation = #{operation}</if>
+		<if test="status != null"> AND status = #{status}</if>
+	</sql>
+
+	<sql id="date_where">
+		<if test="gtCreateTime != null"> AND create_time &gt;= #{gtCreateTime}</if>
+		<if test="ltCreateTime != null"> AND create_time &lt;= #{ltCreateTime}</if>
+	</sql>
+
+	<sql id="common_sort">
+		<if test="sort != null"> ORDER BY #{sort} </if>
+	</sql>
+
+	<sql id="in_where">
+		<if test="ids!=null">
+			AND id IN 
+			<foreach item="item" index="i" collection="ids" separator="," open="(" close=")" >
+				#{item}
+			</foreach>
+		</if>
+	</sql>
+
+	<insert id="batchAdd" parameterType="com.hyh.cloud.give.bag.bean.RuleConfig">
+		INSERT INTO cld_rule_config (
+			<include refid="column"/>)
+		VALUES <foreach collection="list" item="item" index="index" separator=","> (
+			<include refid="variable"/>)</foreach>
+	</insert>
+
+	<select id="queryListByParam" parameterType="map" resultMap="AssetsResultMap">
+		SELECT <include refid="column"/> FROM cld_rule_config
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+		<include refid="common_sort"/>  
+	</select>
+
+	<select id="queryCountByParam" parameterType="map" resultType="java.lang.Integer">
+		SELECT count(1) FROM cld_rule_config
+		<where> 1 = 1
+			<include refid="common_where"/>
+			<include refid="date_where"/>
+		</where>
+	</select>
+
+</mapper>
