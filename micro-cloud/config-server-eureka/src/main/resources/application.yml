@@ -6,18 +6,10 @@ spring:
   cloud:
     config:
       server:
-       # git:
-        #  uri: https://github.com/eacdy/spring-cloud-study/
-        #  search-paths: config-repo
-         # username: zhangw
-         # password: zhangw1234
-        svn:  
-          uri: svn://106.12.11.54/zhan/micro-cloud/  
-          username: zhangwei  
-          password: audatex
-          default-label: config  
-  profiles:  
-    active: subversion
+        git:
+          uri: https://github.com/zhan/micro-cloud/config
+          username: woshizw
+          password: zhan2018
 eureka:
   #instance:
      #preferIpAddress: true
